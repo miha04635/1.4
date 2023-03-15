@@ -1,0 +1,132 @@
+html {
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-family: "TT Lakes";
+}
+
+body {
+    background-color: white;
+    width: 320px;
+    height: 1024px;
+    margin: 0;
+    font-family: "TT Lakes";
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 23px;
+    margin: 0 24px 48.46px 24px;
+}
+
+.container {
+    display: flex;
+}
+
+.header__burger {
+    margin-right: 16.73px;
+}
+
+.main__menu {
+    margin-left: 24px;
+}
+
+.main__menu--item {
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.main__menu--text {
+    font-weight: 500;
+    color: #1B1C21;
+}
+
+.main__menu--text:hover::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 32px;
+    left: -11px;
+    background-color: #41F6D7;
+    border-radius: 20%;
+    transform: translateX(10px);
+    
+}
+
+.main__menu--text:hover {
+    color: #7E7E82;
+}
+
+
+
+.page-footer {
+    margin: 268px 0 32px 24px;
+}
+
+.page-footer__contacs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.page-footer__contacts--call,
+.page-footer__contacts--chat {
+    margin-right: 16px;
+}
+
+.page-footer__email-addres {
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    color: #1B1C21;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.page-footer__phone--text {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1B1C21;
+}
+
+.page-footter__lang--text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1C21;
+}
+
+.page-footter__lang--text:hover {
+    color: #7E7E82;
+}
+
