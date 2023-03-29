@@ -64,6 +64,7 @@ button {
 }
 
 .main__menu--text {
+    font-family: "TT Lakes";
     font-weight: 500;
     color: #1B1C21;
 }
@@ -102,6 +103,7 @@ button {
 }
 
 .page-footer__email-addres {
+    font-family: "TT Lakes";
     font-weight: 500;
     margin-top: 16px;
     margin-bottom: 12px;
@@ -124,6 +126,7 @@ button {
     font-size: 16px;
     line-height: 24px;
     color: #1B1C21;
+    font-family: "TT Lakes";
 }
 
 .page-footter__lang--text:hover {
