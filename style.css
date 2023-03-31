@@ -52,10 +52,6 @@ button {
     padding-top: 23px;
 }
 
-/* .container {
-    display: flex;
-} */
-
 .aside__burger {
     margin-right: 16.73px;
 }
@@ -83,8 +79,13 @@ button {
     
 }
 
-.main__navigation--text {
-    
+.aside__footer__email-addres {
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.aside__footer__phone {
+    margin-bottom: 40px;
 }
 
 .main__navigation--link:hover::before {
