@@ -1,5 +1,5 @@
 html {
-    background-color: #F2F2F2;
+    background-color: white;
     box-sizing: border-box;
 }
 
@@ -15,8 +15,7 @@ body {
 }
 .aside {
     max-width: 320px;
-    min-height: 676px;
-    max-width: 1024px;
+    max-height: 1024px;
 }
 
 .container {
@@ -109,7 +108,9 @@ button {
 
 
 .aside__footer {
-    margin: 268px 0 32px 0;
+    position: absolute;
+    bottom: 0;
+    margin: 16px 0 32px 0;
 }
 
 .aside__footer__contacs {
@@ -142,7 +143,7 @@ button {
     color: #1B1C21;
 }
 
-.page-footter__lang--text {
+.aside-footter__lang--text {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -150,10 +151,18 @@ button {
     font-family: "TT Lakes";
 }
 
-.page-footter__lang--text:hover {
+.aside-footter__lang--text:hover {
     color: #7E7E82;
 }
 
 .aside__footer__lang input[type=radio] {
     display: none;
+}
+
+.aside__footer__lang {
+    display: flex;   
+}
+
+.aside-footter__lang--text {
+    margin-right: 7px;
 }
