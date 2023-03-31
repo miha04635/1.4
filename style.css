@@ -57,6 +57,7 @@ button {
 }
 
 .main__navigation {
+    display: grid;
     gap: 32px;
     margin-left: 24px;
 }
