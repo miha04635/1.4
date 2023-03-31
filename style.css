@@ -56,9 +56,12 @@ button {
     margin-right: 16.73px;
 }
 
-.main__navigation {
+.main {
     display: grid;
     gap: 32px;
+}
+
+.main__navigation {
     margin-left: 24px;
 }
 
