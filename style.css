@@ -57,11 +57,12 @@ button {
 }
 
 .main {
-    display: grid;
-    gap: 32px;
+    
 }
 
 .main__navigation {
+    display: grid;
+    gap: 32px;
     margin-left: 24px;
 }
 
