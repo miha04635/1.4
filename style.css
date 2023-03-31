@@ -66,13 +66,14 @@ button {
 }
 
 .main__navigation--link {
-    width: 100%;
+    
     font-family: "TT Lakes";
     font-weight: 500;
     color: #1B1C21;
 }
 
 .main__navigation--item {
+    width: 100%;
     font-size: 16px;
     line-height: 24px;
     
