@@ -154,3 +154,6 @@ button {
     color: #7E7E82;
 }
 
+.aside__footer__lang input[type=radio] {
+    display: none;
+}
